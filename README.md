@@ -1,4 +1,4 @@
 kickoff
 =======
 
-A HTML5/Sass template based on HTML5 Boilerplate
+An HTML5/Sass template based on HTML5 Boilerplate
