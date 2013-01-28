@@ -7,8 +7,8 @@
 	}
 }
 
-// Use carefully - works only on OS X machines
-// Recommended on white text over dark backgrounds and vice-versa
+// Use carefully
+// Recommended only on white text over dark backgrounds and vice-versa
 @mixin font-smoothing {
 	-webkit-font-smoothing: antialiased;
 }
@@ -36,12 +36,11 @@
 @function black($opacity: 1){
 	@return rgba(0, 0, 0, $opacity);
 }
-
 @function white($opacity: 1){
 	@return rgba(255, 255, 255, $opacity);
 }
 
-//change box model settings
+// Change box model settings
 @mixin border-box {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
