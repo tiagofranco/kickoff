@@ -1,0 +1,64 @@
+// ==========================================================================
+// General imports
+
+@import "normalize";
+@import "mixins";
+
+// ==========================================================================
+// Variables
+@import "vars";
+
+
+// ==========================================================================
+// Setup
+@import "setup";
+
+// add your own personal setup rules
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+// ==========================================================================
+// Start
+
+
+
+
+
+
+
+
+// ==========================================================================
+// Helper classes
+
+// classic method for clearing floats
+.clearfix {
+	@include clearfix;
+}
+// quickly and easily hide elements
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+
+// ==========================================================================
+// Mediaqueries
+// ==========================================================================
+// Style adjustments for viewports that meet the condition
+@media only screen and (min-width: 35em) {
+
+}
+
+// Style adjustments for high resolution devices
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min-resolution: 144dpi) {
+   	
+}
+
+// ==========================================================================
+// Print styles
+
+@import "print";
