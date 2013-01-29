@@ -2,6 +2,7 @@
 // General imports
 
 @import "normalize";
+@import "grid";
 @import "mixins";
 
 // ==========================================================================
@@ -14,11 +15,7 @@
 @import "setup";
 
 // add your own personal setup rules
-* {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
+
 
 // ==========================================================================
 // Add your project styles
