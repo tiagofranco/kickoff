@@ -12,4 +12,3 @@ Kickoff is an HTML5/Sass barebones template based on [HTML5 Boilerplate](http://
 - .htaccess file that activates gzip compression and solves common problems such as webfonts access throught your domain and forcing IE to render with the lastest version
 - robots.txt file
 - humans.txt file
-- That is pretty much all you need.
