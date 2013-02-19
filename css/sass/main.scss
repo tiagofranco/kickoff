@@ -22,20 +22,6 @@
 
 
 // ==========================================================================
-// Helper classes
-
-// classic method for clearing floats
-.clearfix {
-	@include clearfix;
-}
-// quickly and easily hide elements
-.hidden {
-    display: none !important;
-    visibility: hidden;
-}
-
-
-// ==========================================================================
 // Mediaqueries
 
 // Style adjustments for viewports that meet the condition
@@ -48,6 +34,19 @@
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
        only screen and (min-resolution: 144dpi) {
    	
+}
+
+// ==========================================================================
+// Helper classes
+
+// classic method for clearing floats
+.clearfix {
+	@include clearfix;
+}
+// quickly and easily hide elements
+.hidden {
+    display: none !important;
+    visibility: hidden;
 }
 
 // ==========================================================================
