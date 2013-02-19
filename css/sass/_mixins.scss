@@ -1,11 +1,9 @@
 @mixin hide-text {
-	a {
-		width: 100%;
-		height: 100%;
-		display: block;
-		text-indent: -9999px;
-	}
+	overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
 }
+
 
 // Use carefully
 // Recommended only on white text over dark backgrounds and vice-versa
