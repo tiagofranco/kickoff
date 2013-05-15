@@ -1,5 +1,6 @@
 // ==========================================================================
 // General imports
+// ==========================================================================
 
 @import "normalize";
 @import "grid";
@@ -10,9 +11,12 @@
 // ==========================================================================
 // Setup
 @import "setup";
+// ==========================================================================
+
 
 // ==========================================================================
-// Add your project styles
+// Add your project styles here
+// ==========================================================================
 
 
 
@@ -23,9 +27,10 @@
 
 // ==========================================================================
 // Mediaqueries
+// ==========================================================================
 
 // Style adjustments for viewports that meet the condition
-// Consider adding respond.js (by Scott Jehll) for IE 7 and 8 support
+// Consider adding respond.js (by Scott Jehll) for IE7/8 support
 @media only screen and (max-width: 320px) {
 
 }
@@ -36,10 +41,13 @@
    	
 }
 
+
 // ==========================================================================
 // Helper classes
+// ==========================================================================
 
-// classic method for clearing floats
+// Classic method for clearing floats
+// Consider using "@include clearfix;" in the container that needs to get clearfixed
 .clearfix {
 	@include clearfix;
 }
@@ -49,7 +57,9 @@
     visibility: hidden;
 }
 
+
 // ==========================================================================
 // Print styles
+// ==========================================================================
 
 @import "print";
