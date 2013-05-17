@@ -1,5 +1,4 @@
 #Kickoff
-=======
 
 Kickoff is an HTML5/Sass barebones template based on [HTML5 Boilerplate](http://html5boilerplate.com).
 
