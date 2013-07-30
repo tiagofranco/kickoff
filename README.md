@@ -4,7 +4,7 @@ Kickoff is an HTML5/Sass barebones template based on [HTML5 Boilerplate](http://
 
 ##Features
 - [Normalizer](http://necolas.github.com/normalize.css) 2.1.2 - A smarter, HTML5 ready, modern alternative to CSS resets;
-- [Modernizr](http://modernizr.com) 1.6.3 — Use HTML5 syntax without worries (you should create your own build on [modernizr.com](http://modernizr.com/))
+- [Modernizr](http://modernizr.com) 1.6.3 — Use HTML5 syntax without worries (for production you should create your own build on [modernizr.com](http://modernizr.com/))
 - [jQuery](http://jquery.org) 1.9.1 – Through Googles CDN;
 - [Sass](http://sass-lang.com) - For sane, awesome stylesheets;
 - Basic meta tags;
