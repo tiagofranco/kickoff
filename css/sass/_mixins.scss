@@ -1,14 +1,5 @@
-// Helper mixins and functions
-
-@mixin hide-text {
-	overflow: hidden;
-	text-indent: 100%;
-	white-space: nowrap;
-}
-
-
-// Use carefully
-// Recommended only on white text over dark backgrounds and vice-versa
+// Webkit only
+// Recommended only on situations where there's high contrast between text and background
 @mixin font-smooth {
 	-webkit-font-smoothing: antialiased;
 }
@@ -20,16 +11,11 @@
 	text-rendering: optimizeLegibility;
 }
 
-// Classic clearfix method
-@mixin clearfix {
-	&:before, &:after {
-		content: "";
-		display: table;
-	}
-	&:after {
-		clear: both;
-	}
-	*zoom: 1;
+// Hiding text method, by Paul Irish and other community leaders
+@mixin hide-text {
+	font: 0/0 serif;
+	text-shadow: none;
+	color: transparent;
 }
 
 // quick transparent black/white
@@ -52,3 +38,9 @@ $browser-context: 16;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
+
+.hidden {
+	display: none !important;
+	visibility: hidden;
+}
+

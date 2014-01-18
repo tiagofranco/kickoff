@@ -1,67 +1,79 @@
-// ==========================================================================
-// General imports
-// ==========================================================================
+// Main.scss
 
-// Consider using Bourbon or Compass
+// Bourbon documentation: http://bourbon.io/docs
+@import "bourbon";
+
+// Normalize by Nicolas Gallagher and Jonathan Neal: http://necolas.github.io/normalize.css/
 @import "normalize";
-@import "grid";
+
+// Garnish by Paulo Zoom: https://github.com/paulozoom/garnish
+@import "garnish/garnish.scss";
+
+// Feel free to also add your own mixins here
 @import "mixins";
+
+// Add you own variables
 @import "vars";
 
+// Add whatever grid fits you project the best
+@import "grid";
 
-// ==========================================================================
-// Setup
-// ==========================================================================
-
+// Base styles: opinionated defaults
 @import "setup";
 
-
-// ==========================================================================
-// Add your project styles here
-// ==========================================================================
-
-
-
-
-
-
-
-
-// ==========================================================================
-// Mediaqueries
-// ==========================================================================
-
-// Style adjustments for viewports that meet the condition
-// Consider adding respond.js (by Scott Jehll) for IE7/8 support
-@media only screen and (max-width: 320px) {
-
-}
-
-// Style adjustments for high resolution devices
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-			 only screen and (min-resolution: 144dpi) {
-		
+* {
+	@include border-box;
 }
 
 
 // ==========================================================================
-// Helper classes
+//   Add you own styles
 // ==========================================================================
 
-// Classic method for clearing floats
-// Consider using "@include clearfix;" in the container that needs to get clearfixed
-.clearfix {
-	@include clearfix;
-}
-// quickly and easily hide elements
+
+
+
+// ==========================================================================
+//   Helper classes
+// ==========================================================================
+// Hide from both screenreaders and browsers
 .hidden {
 	display: none !important;
 	visibility: hidden;
 }
 
+// Hide only visually, but have it available for screenreaders
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+// Hide visually and from screenreaders, but maintain layout
+.invisible {
+  visibility: hidden;
+}
 
 // ==========================================================================
-// Print styles
+//   EXAMPLE Media Queries for Responsive Design.
+//   These examples override the primary ('mobile first') styles.
+//   Modify as content requires.
 // ==========================================================================
+
+@media only screen and (min-width: 35em) {
+	
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
 
 @import "print";
