@@ -1,3 +1,5 @@
+![](https://raw.github.com/tiagofranco/kickoff/master/apple-touch-icon-precomposed.png)
+
 #Kickoff
 
 Kickoff is an HTML5/Sass barebones template based on [HTML5 Boilerplate](http://html5boilerplate.com). It's made to be run on [Codekit](http://incident57.com/codekit/), with [Bourbon](http://bourbon.io) and [Garnish](https://github.com/paulozoom/garnish) for faster, easier development.
