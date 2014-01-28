@@ -13,4 +13,4 @@ Kickoff is an HTML5/Sass barebones template based on [HTML5 Boilerplate](http://
 - .psd and .png icon files that you can use as templates to create your iOS, Android and favicon icons;
 - .htaccess file that enables gzip compression and solves common problems such as webfonts access throught your domain and forcing IE to render with the lastest version;
 - [robots.txt](http://www.robotstxt.org/) and
-- [humans.txt](http://humanstxt.org/);
+- [humans.txt](http://humanstxt.org/).
