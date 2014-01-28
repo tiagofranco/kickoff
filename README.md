@@ -10,7 +10,7 @@ Kickoff is an HTML5/Sass barebones template based on [HTML5 Boilerplate](http://
 - [jQuery](http://jquery.org) – Through Googles CDN, fallback to local copy;
 - [Sass](http://sass-lang.com) - For sane, more modular, awesome stylesheets;
 - Basic meta tags;
-- .psd and .png icon files in multiple sizes that you can use as a template to create your iOS, Android and favicon icons;
+- .psd and .png icon files that you can use as templates to create your iOS, Android and favicon icons;
 - .htaccess file that enables gzip compression and solves common problems such as webfonts access throught your domain and forcing IE to render with the lastest version;
-- [robots.txt](http://www.robotstxt.org/) file;
-- [humans.txt](http://humanstxt.org/) file, for knowing the people behind a website;
+- [robots.txt](http://www.robotstxt.org/) and
+- [humans.txt](http://humanstxt.org/);
