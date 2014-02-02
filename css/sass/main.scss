@@ -21,7 +21,9 @@
 // Base styles: opinionated defaults
 @import "setup";
 
-* {
+*,
+*:before,
+*:after {
 	@include border-box;
 }
 
