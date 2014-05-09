@@ -39,6 +39,15 @@ $browser-context: 16;
 	box-sizing: border-box;
 }
 
+// Easily truncate text with an ellipsis with a single mixin.
+// Requires element to be block or inline-block level.
+// From Bootstrap
+@mixin text-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 .hidden {
 	display: none !important;
 	visibility: hidden;
