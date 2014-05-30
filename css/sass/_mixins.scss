@@ -39,6 +39,16 @@ $browser-context: 16;
 	box-sizing: border-box;
 }
 
+// Vertically center any object within its container. Works in IE9 and up.
+// From chopsticks boilerplate
+@mixin vertical-center {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 // Easily truncate text with an ellipsis with a single mixin.
 // Requires element to be block or inline-block level.
 // From Bootstrap
