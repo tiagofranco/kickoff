@@ -11,6 +11,24 @@
 	text-rendering: optimizeLegibility;
 }
 
+// Border-radius on coordinates
+@mixin border-top-radius($radius){
+	border-top-left-radius: $radius;
+	border-top-right-radius: $radius;
+}
+@mixin border-left-radius($radius){
+	border-top-left-radius: $radius;
+	border-bottom-left-radius: $radius;
+}
+@mixin border-right-radius($radius){
+	border-top-right-radius: $radius;
+	border-bottom-right-radius: $radius;
+}
+@mixin border-bottom-radius($radius){
+	border-bottom-left-radius: $radius;
+	border-bottom-right-radius: $radius;
+}
+
 // Hiding text method, by Paul Irish and other community leaders
 @mixin hide-text {
 	font: 0/0 serif;
